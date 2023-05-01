@@ -1,0 +1,17 @@
+{
+  "name": "@takanome/eslint-config-typescript",
+  "version": "0.1.0",
+  "description": "ESLint config for Takanome",
+  "main": "dist/index.js",
+  "devDependencies": {},
+  "dependencies": {
+    "@takanome/eslint-config-base": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^5.47.0",
+    "@typescript-eslint/parser": "^5.47.0",
+    "eslint-config-airbnb-typescript": "^17.0.0"
+  },
+  "scripts": {
+    "build": "tsc index.ts --outDir dist",
+    "type-check": "tsc --noEmit"
+  }
+}

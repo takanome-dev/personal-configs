@@ -1,0 +1,19 @@
+{
+  "name": "@takanome/eslint-config-base",
+  "version": "0.1.0",
+  "description": "ESLint config for Takanome",
+  "main": "dist/index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "tsc index.ts --outDir dist",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@babel/core": "^7.20.7",
+    "@babel/eslint-parser": "^7.19.1",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1"
+  }
+}
