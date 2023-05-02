@@ -8,7 +8,7 @@
   },
   "private": true,
   "devDependencies": {
-    "nx": "16.0.1",
+    "nx": "16.0.2",
     "typescript": "^5.0.4"
   }
 }
