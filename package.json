@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
+    "dev": "nx run-many -t dev --parallel",
     "build": "nx run-many -t build --parallel",
     "type-check": "nx run-many --target=type-check --parallel"
   },
