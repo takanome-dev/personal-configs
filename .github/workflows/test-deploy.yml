@@ -37,7 +37,7 @@ jobs:
             ${{ runner.os }}-pnpm-store-
 
       - name: "📦 Install deps (with cache)"
-        run: pnpm install
+        run: pnpm install --lockfile=false
 
       - name: "📦 Build website"
         run: pnpm build
