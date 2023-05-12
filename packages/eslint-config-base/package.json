@@ -2,7 +2,7 @@
   "name": "@takanome/eslint-config-base",
   "version": "0.1.0",
   "description": "ESLint config base used by takanome-dev",
-  "main": "index.js",
+  "main": "dist/index.js",
   "author": "El Hadji Malick Seck (https://twitter.com/takanome_dev)",
   "license": "MIT",
   "bugs": {
@@ -24,9 +24,13 @@
     "eslint-config-base",
     "eslint-config-typescript"
   ],
-  "devDependencies": {},
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "type-check": "tsc --noEmit",
+    "clean": "rm -rf .turbo node_modules"
   },
   "dependencies": {
     "@babel/core": "^7.20.7",
@@ -39,6 +43,10 @@
   "peerDependencies": {
     "eslint": ">=8.0.0",
     "eslint-plugin-import": ">=2.26.0",
-    "eslint-plugin-prettier": ">=4.2.1"
+    "eslint-plugin-prettier": ">=4.2.1",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
   }
 }

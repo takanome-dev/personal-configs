@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "nx run-many -t dev --parallel",
     "build": "nx run-many -t build --parallel",
-    "type-check": "nx run-many --target=type-check --parallel"
+    "type-check": "nx run-many --target=type-check --parallel",
+    "lint": "nx run-many -t lint --parallel",
+    "clean": "nx run-many -t clean --parallel"
   },
   "private": true,
   "packageManager": "pnpm@8.6.12",
@@ -15,5 +17,8 @@
   "devDependencies": {
     "nx": "16.6.0",
     "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.26.1"
   }
 }
