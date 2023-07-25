@@ -4,7 +4,6 @@ export default {
     node: true,
   },
   extends: ["airbnb/hooks", "@takanome/eslint-config-typescript"],
-
   plugins: ["react-hooks"],
   rules: {
     "react/function-component-definition": "off",

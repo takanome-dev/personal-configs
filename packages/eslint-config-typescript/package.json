@@ -1,8 +1,29 @@
 {
   "name": "@takanome/eslint-config-typescript",
   "version": "0.1.0",
-  "description": "ESLint config for Takanome",
+  "description": "ESLint config used by takanome-dev",
   "main": "index.js",
+  "author": "El Hadji Malick Seck (https://twitter.com/takanome_dev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/takanome-dev/personal-configs/issues"
+  },
+  "homepage": "https://github.com/takanome-dev/personal-configs#readme",
+  "contributors": [{
+      "name": "El Hadji Malick Seck",
+      "url": "https://twitter.com/takanome_dev"
+    }],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takanome-dev/personal-configs.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-config",
+    "eslint-config-base",
+    "eslint-config-typescript"
+  ],
   "devDependencies": {},
   "dependencies": {
     "@takanome/eslint-config-base": "workspace:*",
