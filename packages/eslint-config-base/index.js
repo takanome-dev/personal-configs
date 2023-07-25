@@ -134,13 +134,5 @@ export default {
     "vars-on-top": "off",
     yoda: "error",
   },
-  reportUnusedDisableDirectives: true,
-  ignorePatterns: [
-    "**/*.config.js",
-    "**/*.config.cjs",
-    "**/*.js",
-    "node_modules",
-    ".next",
-    "public",
-  ],
+  reportUnusedDisableDirectives: true
 };
