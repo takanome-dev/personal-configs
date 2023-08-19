@@ -15,7 +15,7 @@
     "node": ">=18.0.0"
   },
   "devDependencies": {
-    "nx": "16.6.0",
+    "nx": "16.7.2",
     "typescript": "^5.0.4"
   },
   "dependencies": {
