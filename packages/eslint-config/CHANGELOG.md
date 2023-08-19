@@ -1,5 +1,16 @@
 # @takanome/eslint-config
 
+## 1.0.0
+
+### Major Changes
+
+- Add documentation on how to install and use the packages
+
+### Patch Changes
+
+- Updated dependencies
+  - @takanome/eslint-config-typescript@1.0.0
+
 ## 0.3.1
 
 ### Patch Changes

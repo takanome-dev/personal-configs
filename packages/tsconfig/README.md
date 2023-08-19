@@ -1,5 +1,46 @@
 # `@takanome/tsconfig-base`
 
-These are base shared `tsconfig.json`s used by [takanome-dev](https://github.com/takanome-dev) from which all other `tsconfig.json`'s inherit from.
+This package contains 3 tsconfig files which are used in my projects:
 
-See [docs](https://github.com/takanome-dev/personal-configs#readme) for more information.
+- `base.json` which is the base config for all other configs
+- `server.json` which is the config for server side code (NestJS)
+- `nextjs.json` which is the config for client side code (NextJS)
+
+## 💻 Usage
+
+First, install the package:
+  
+```bash
+npm i -D @takanome/tsconfig
+```
+
+Then, create a `tsconfig.json` file in the root of your project and extend the base config:
+
+```json
+{
+  "extends": "@takanome/tsconfig/base.json",
+  /// ...
+}
+```
+
+If you are using NestJS, you can extend the server config:
+
+```json
+{
+  "extends": "@takanome/tsconfig/server.json",
+  /// ...
+}
+```
+
+If you are using NextJS, you can extend the client config:
+
+```json
+{
+  "extends": "@takanome/tsconfig/nextjs.json",
+  /// ...
+}
+```
+
+## ⚖️ License
+
+This project is licensed under the terms of the [MIT license](./LICENSE.md).
