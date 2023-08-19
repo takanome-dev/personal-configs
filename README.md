@@ -1,24 +1,14 @@
-# 🛠️ Personal Tooling
-
+<div style="display:flex;justify-content:center;gap:20px;">
+<h1>🛠️ Personal Tooling</h1>
 <a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
+</div>
 
-This is a monorepo for my personal tooling. It is built using [Nx](https://nx.dev) ✨.
-⚠️ This is a work in progress. ⚠️
+This is a monorepo holding my personal configs for `eslint`, `tsconfig` and `prettier` as well as some other tooling. Feel free to use it as a reference or as a starting point for your own tooling.
 
-## 📓 TODO
+## :balance_scale: LICENSE
 
-- [ ] Add basic app to test out the tooling
-- [ ] Add a release action to publish the packages to npm
-- [ ] I don't know what else yet 🤷‍♂️
+The scripts and documentation in this project are released under the [MIT LICENSE](LICENSE)
 
-## Understand this workspace
+## :pray: Support
 
-Run `nx graph` to see a diagram of the dependencies of the projects.
-
-## Remote caching
-
-Run `npx nx connect-to-nx-cloud` to enable [remote caching](https://nx.app) and make CI faster.
-
-## Further help
-
-Visit the [Nx Documentation](https://nx.dev) to learn more.
+Don't forget to leave a ⭐ if you like this project :wink:

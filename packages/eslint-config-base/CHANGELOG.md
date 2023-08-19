@@ -1,5 +1,11 @@
 # @takanome/eslint-config-base
 
+## 1.0.0
+
+### Major Changes
+
+- Add documentation on how to install and use the packages
+
 ## 0.3.0
 
 ### Minor Changes

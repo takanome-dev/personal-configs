@@ -1,5 +1,33 @@
 # `@takanome/eslint-config-base`
 
-These are base shared `eslint-config-base`'s used by [takanome-dev](https://github.com/takanome-dev) from which all other `eslint-config`'s extend from.
+This package contains basic eslint configs for my projects. It's based on the following packages:
 
-See [docs](https://github.com/takanome-dev/personal-configs#readme) for more information.
+- [@babel/core](https://www.npmjs.com/package/@babel/core)
+- [@babel/eslint-parser](https://www.npmjs.com/package/@babel/eslint-parser)
+- [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb)
+- [eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier)
+- [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import)
+- [eslint-plugin-prettier](https://www.npmjs.com/package/eslint-plugin-prettier)
+
+The configs defined in this package are extended by my other eslint configs like [@takanome/eslint-config](../eslint-config/README.md).
+
+## 💻 Usage
+
+First, install the package:
+  
+```bash
+npm i -D @takanome/eslint-config-base
+```
+
+Then, create a `.eslintrc` file in the root of your project and extend the base config:
+
+```json
+{
+  "extends": "@takanome/eslint-config-base",
+  /// ...
+}
+```
+
+## ⚖️ License
+
+This project is licensed under the terms of the [MIT license](./LICENSE.md).
