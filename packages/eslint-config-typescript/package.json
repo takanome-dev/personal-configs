@@ -1,6 +1,6 @@
 {
   "name": "@takanome/eslint-config-typescript",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "description": "ESLint config used by takanome-dev",
   "main": "index.js",
   "author": "El Hadji Malick Seck (https://twitter.com/takanome_dev)",
@@ -9,10 +9,12 @@
     "url": "https://github.com/takanome-dev/personal-configs/issues"
   },
   "homepage": "https://github.com/takanome-dev/personal-configs#readme",
-  "contributors": [{
+  "contributors": [
+    {
       "name": "El Hadji Malick Seck",
       "url": "https://twitter.com/takanome_dev"
-    }],
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/takanome-dev/personal-configs.git"
@@ -24,14 +26,17 @@
     "eslint-config-base",
     "eslint-config-typescript"
   ],
-  "devDependencies": {},
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "clean": "rm -rf .turbo node_modules"
+  },
   "dependencies": {
     "@takanome/eslint-config-base": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.47.0",
     "@typescript-eslint/parser": "^5.47.0",
     "eslint-config-airbnb-typescript": "^17.0.0"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  "devDependencies": {}
 }
