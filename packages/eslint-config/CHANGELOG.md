@@ -4,6 +4,17 @@
 
 ### Major Changes
 
+- d8c0194: Add documentation on how to install and use the packages
+
+### Patch Changes
+
+- Updated dependencies [d8c0194]
+  - @takanome/eslint-config-typescript@1.0.0
+
+## 1.0.0
+
+### Major Changes
+
 - Add documentation on how to install and use the packages
 
 ### Patch Changes
