@@ -1,5 +1,16 @@
 # @takanome/eslint-config-typescript
 
+## 0.3.0
+
+### Minor Changes
+
+- Update package json configs and move from ts to js
+
+### Patch Changes
+
+- Updated dependencies
+  - @takanome/eslint-config-base@0.3.0
+
 ## 0.2.0
 
 ### Minor Changes

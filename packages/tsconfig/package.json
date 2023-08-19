@@ -1,6 +1,6 @@
 {
-  "name": "@takanome/tsconfig-base",
-  "version": "0.2.0",
+  "name": "@takanome/tsconfig",
+  "version": "0.3.0",
   "license": "MIT",
   "publishConfig": {
     "access": "public"

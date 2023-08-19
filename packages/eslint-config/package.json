@@ -1,8 +1,8 @@
 {
   "name": "@takanome/eslint-config",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "ESLint config used takanome-dev",
-  "main": "dist/index.js",
+  "main": "index.js",
   "author": "El Hadji Malick Seck (https://twitter.com/takanome_dev)",
   "license": "MIT",
   "bugs": {
@@ -30,8 +30,6 @@
     "access": "public"
   },
   "scripts": {
-    "build": "tsc",
-    "type-check": "tsc --noEmit",
     "clean": "rm -rf .turbo node_modules"
   },
   "dependencies": {
@@ -50,7 +48,5 @@
     "eslint-plugin-react-hooks": ">=4.6.0",
     "typescript": "^5.0.4"
   },
-  "devDependencies": {
-    "typescript": "^5.0.4"
-  }
+  "devDependencies": {}
 }

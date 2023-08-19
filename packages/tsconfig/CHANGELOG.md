@@ -1,5 +1,11 @@
 # @takanome/tsconfig-base
 
+## 0.3.0
+
+### Minor Changes
+
+- Update package json configs and move from ts to js
+
 ## 0.2.0
 
 ### Minor Changes
