@@ -1,6 +1,6 @@
 {
   "name": "@takanome/eslint-config-base",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "ESLint config base used by takanome-dev",
   "main": "dist/index.js",
   "author": "El Hadji Malick Seck (https://twitter.com/takanome_dev)",
@@ -9,10 +9,12 @@
     "url": "https://github.com/takanome-dev/personal-configs/issues"
   },
   "homepage": "https://github.com/takanome-dev/personal-configs#readme",
-  "contributors": [{
+  "contributors": [
+    {
       "name": "El Hadji Malick Seck",
       "url": "https://twitter.com/takanome_dev"
-    }],
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/takanome-dev/personal-configs.git"
