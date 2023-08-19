@@ -1,4 +1,4 @@
-lockfileVersion: '6.0'
+lockfileVersion: '6.1'
 
 settings:
   autoInstallPeers: true
@@ -58,9 +58,9 @@ importers:
       '@babel/preset-react':
         specifier: ^7.18.6
         version: 7.18.6(@babel/core@7.21.8)
-      '@takanome/eslint-config-base':
+      '@takanome/eslint-config-typescript':
         specifier: workspace:*
-        version: link:../eslint-config-base
+        version: link:../eslint-config-typescript
       eslint:
         specifier: '>=8.0.0'
         version: 8.39.0

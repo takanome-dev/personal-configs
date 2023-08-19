@@ -1,5 +1,11 @@
 # @takanome/eslint-config
 
+## 0.3.1
+
+### Patch Changes
+
+- Fix package dependency mismatch
+
 ## 0.3.0
 
 ### Minor Changes
