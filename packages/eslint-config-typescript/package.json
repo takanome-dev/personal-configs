@@ -15,9 +15,10 @@
       "url": "https://twitter.com/takanome_dev"
     }
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/takanome-dev/personal-configs.git"
+  "repository": "https://github.com/takanome-dev/personal-configs.git",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "eslint",
@@ -26,9 +27,6 @@
     "eslint-config-base",
     "eslint-config-typescript"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
     "clean": "rm -rf .turbo node_modules"
   },
