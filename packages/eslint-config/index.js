@@ -3,7 +3,7 @@ module.exports = {
     es2020: true,
     node: true,
   },
-  extends: ["airbnb/hooks", "@takanome/eslint-config-typescript"],
+  extends: ["airbnb", "airbnb/hooks", "@takanome/eslint-config-typescript"],
   plugins: ["react-hooks"],
   rules: {
     "react/function-component-definition": "off",

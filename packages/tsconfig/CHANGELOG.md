@@ -1,5 +1,11 @@
 # @takanome/tsconfig-base
 
+## 1.0.1
+
+### Patch Changes
+
+- Add airbnb and airbnb hooks configs in my eslint config
+
 ## 1.0.0
 
 ### Major Changes

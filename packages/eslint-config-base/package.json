@@ -1,6 +1,6 @@
 {
-  "name": "@takanome/eslint-config-base",
-  "version": "1.0.1",
+  "name": "@takanome-dev/eslint-config-base",
+  "version": "1.0.2",
   "description": "ESLint config base used by takanome-dev",
   "main": "index.js",
   "author": "El Hadji Malick Seck (https://twitter.com/takanome_dev)",

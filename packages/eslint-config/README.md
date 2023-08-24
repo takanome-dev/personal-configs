@@ -4,6 +4,7 @@ This package contains eslint configs for my projects that use Next.js. It's base
 
 - [@babel/preset-react](https://www.npmjs.com/package/@babel/preset-react)
 - [@takanome/eslint-config-typescript](https://www.npmjs.com/package/@takanome/eslint-config-typescript)
+- [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb)
 - [eslint-plugin-html](https://www.npmjs.com/package/eslint-plugin-html)
 - [eslint-plugin-jsx-a11y](https://www.npmjs.com/package/eslint-plugin-jsx-a11y)
 - [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react)

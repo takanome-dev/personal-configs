@@ -1,5 +1,13 @@
 # @takanome/eslint-config
 
+## 1.0.2
+
+### Patch Changes
+
+- Add airbnb and airbnb hooks configs in my eslint config
+- Updated dependencies
+  - @takanome/eslint-config-typescript@1.0.2
+
 ## 1.0.1
 
 ### Patch Changes
