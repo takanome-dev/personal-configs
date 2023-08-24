@@ -1,5 +1,11 @@
 # @takanome/eslint-config-base
 
+## 1.0.1
+
+### Patch Changes
+
+- use base airbnb config without react
+
 ## 1.0.0
 
 ### Major Changes
