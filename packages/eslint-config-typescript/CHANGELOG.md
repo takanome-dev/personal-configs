@@ -1,4 +1,12 @@
-# @takanome/eslint-config-typescript
+# @takanome-dev/eslint-config-typescript
+
+## 1.0.3
+
+### Patch Changes
+
+- update packages namespace
+- Updated dependencies
+  - @takanome-dev/eslint-config-base@1.0.3
 
 ## 1.0.2
 

@@ -1,4 +1,10 @@
-# @takanome/tsconfig-base
+# @takanome-dev/tsconfig-base
+
+## 1.0.2
+
+### Patch Changes
+
+- update packages namespace
 
 ## 1.0.1
 

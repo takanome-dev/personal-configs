@@ -1,9 +1,9 @@
-# `@takanome/eslint-config`
+# `@takanome-dev/eslint-config`
 
 This package contains eslint configs for my projects that use Next.js. It's based on the following packages:
 
 - [@babel/preset-react](https://www.npmjs.com/package/@babel/preset-react)
-- [@takanome/eslint-config-typescript](https://www.npmjs.com/package/@takanome/eslint-config-typescript)
+- [@takanome-dev/eslint-config-typescript](https://www.npmjs.com/package/@takanome-dev/eslint-config-typescript)
 - [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb)
 - [eslint-plugin-html](https://www.npmjs.com/package/eslint-plugin-html)
 - [eslint-plugin-jsx-a11y](https://www.npmjs.com/package/eslint-plugin-jsx-a11y)
@@ -17,23 +17,23 @@ These configs can be used for Next.js projects that use TypeScript as well as Re
 First, install the package:
   
 ```bash
-npm i -D @takanome/eslint-config
+npm i -D @takanome-dev/eslint-config
 ```
 
 Then, create a `.eslintrc` file in the root of your project and extend the base config:
 
 ```json
 {
-  "extends": "@takanome/eslint-config",
+  "extends": "@takanome-dev/eslint-config",
   /// ...
 }
 ```
 
-If you found annoying eslint errors you want to turn off, you can override the rules in your `.eslintrc` file:
+If you find annoying eslint errors you want to turn off, you can override the rules in your `.eslintrc` file:
 
 ```json
 {
-  "extends": "@takanome/eslint-config",
+  "extends": "@takanome-dev/eslint-config",
   "rules": {
     "@typescript-eslint/no-unused-vars": "off"
   }

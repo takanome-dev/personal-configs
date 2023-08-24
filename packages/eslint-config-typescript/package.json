@@ -1,6 +1,6 @@
 {
   "name": "@takanome-dev/eslint-config-typescript",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ESLint config used by takanome-dev",
   "main": "index.js",
   "author": "El Hadji Malick Seck (https://twitter.com/takanome_dev)",
@@ -31,7 +31,7 @@
     "clean": "rm -rf .turbo node_modules"
   },
   "dependencies": {
-    "@takanome/eslint-config-base": "workspace:*",
+    "@takanome-dev/eslint-config-base": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "eslint-config-airbnb-typescript": "^17.0.0"

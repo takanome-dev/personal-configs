@@ -1,4 +1,10 @@
-# @takanome/eslint-config-base
+# @takanome-dev/eslint-config-base
+
+## 1.0.3
+
+### Patch Changes
+
+- update packages namespace
 
 ## 1.0.2
 

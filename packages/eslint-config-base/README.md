@@ -1,4 +1,4 @@
-# `@takanome/eslint-config-base`
+# `@takanome-dev/eslint-config-base`
 
 This package contains basic eslint configs for my projects. It's based on the following packages:
 
@@ -16,15 +16,26 @@ The configs defined in this package are extended by my other eslint configs like
 First, install the package:
   
 ```bash
-npm i -D @takanome/eslint-config-base
+npm i -D @takanome-dev/eslint-config-base
 ```
 
 Then, create a `.eslintrc` file in the root of your project and extend the base config:
 
 ```json
 {
-  "extends": "@takanome/eslint-config-base",
+  "extends": "@takanome-dev/eslint-config-base",
   /// ...
+}
+```
+
+If you find annoying eslint errors you want to turn off, you can override the rules in your `.eslintrc` file:
+
+```json
+{
+  "extends": "@takanome-dev/eslint-config-base",
+  "rules": {
+    "no-unused-vars": "off"
+  }
 }
 ```
 
