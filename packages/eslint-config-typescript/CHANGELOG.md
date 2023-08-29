@@ -1,5 +1,13 @@
 # @takanome-dev/eslint-config-typescript
 
+## 1.0.4
+
+### Patch Changes
+
+- remove jsdoc plugin from eslint base configs
+- Updated dependencies
+  - @takanome-dev/eslint-config-base@1.0.4
+
 ## 1.0.3
 
 ### Patch Changes

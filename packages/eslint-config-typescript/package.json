@@ -1,6 +1,6 @@
 {
   "name": "@takanome-dev/eslint-config-typescript",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "ESLint config used by takanome-dev",
   "main": "index.js",
   "author": "El Hadji Malick Seck (https://twitter.com/takanome_dev)",
