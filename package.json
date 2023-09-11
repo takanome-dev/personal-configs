@@ -14,7 +14,7 @@
     "release": "yarn changeset:version && yarn changeset:publish"
   },
   "private": true,
-  "packageManager": "pnpm@8.7.1",
+  "packageManager": "pnpm@8.7.5",
   "engines": {
     "node": ">=18.0.0"
   },
