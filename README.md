@@ -3,9 +3,6 @@
 </div>
 
 This is a monorepo holding my personal configs for `eslint`, `tsconfig` and `prettier` as well as some other tooling. Feel free to use it as a reference or as a starting point for your own tooling.
-```
-Don't forget to leave a ⭐ if you like this project :wink:
-```
 
 ## ❕Important
 
