@@ -19,7 +19,7 @@
     "node": ">=18.0.0"
   },
   "devDependencies": {
-    "nx": "19.0.4",
+    "nx": "19.1.0",
     "typescript": "^5.0.4"
   },
   "dependencies": {
