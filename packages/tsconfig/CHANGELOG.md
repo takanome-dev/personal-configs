@@ -1,5 +1,11 @@
 # @takanome-dev/tsconfig-base
 
+## 1.0.6
+
+### Patch Changes
+
+- 87f2545: add tailwindcss eslint & prettier configs
+
 ## 1.0.5
 
 ### Patch Changes
