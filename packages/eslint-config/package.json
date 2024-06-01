@@ -36,7 +36,9 @@
     "eslint-plugin-html": "^8.0.0",
     "eslint-plugin-jsx-a11y": "^6.6.1",
     "eslint-plugin-react": "^7.31.11",
-    "eslint-plugin-react-hooks": "^4.6.0"
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-tailwindcss": "^3.17.0",
+    "prettier-plugin-tailwindcss": "^0.6.1"
   },
   "peerDependencies": {
     "eslint": ">=8.0.0",
@@ -46,6 +48,5 @@
     "eslint-plugin-react": ">=7.31.11",
     "eslint-plugin-react-hooks": ">=4.6.0",
     "typescript": "^5.0.4"
-  },
-  "devDependencies": {}
+  }
 }
