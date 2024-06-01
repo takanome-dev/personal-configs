@@ -1,10 +1,13 @@
 {
-  "name": "@takanome-dev/eslint-config",
-  "version": "1.0.4",
+  "name": "@takanome/eslint-config",
+  "version": "1.0.6",
   "description": "ESLint config used takanome-dev",
   "main": "index.js",
   "author": "El Hadji Malick Seck (https://twitter.com/takanome_dev)",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "bugs": {
     "url": "https://github.com/takanome-dev/personal-configs/issues"
   },
@@ -16,10 +19,6 @@
     }
   ],
   "repository": "https://github.com/takanome-dev/personal-configs.git",
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://npm.pkg.github.com"
-  },
   "keywords": [
     "eslint",
     "eslintconfig",
@@ -32,12 +31,14 @@
   },
   "dependencies": {
     "@babel/preset-react": "^7.18.6",
-    "@takanome-dev/eslint-config-typescript": "workspace:*",
+    "@takanome/eslint-config-typescript": "workspace:*",
     "eslint-config-airbnb": "19.0.4",
     "eslint-plugin-html": "^8.0.0",
     "eslint-plugin-jsx-a11y": "^6.6.1",
     "eslint-plugin-react": "^7.31.11",
-    "eslint-plugin-react-hooks": "^4.6.0"
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-tailwindcss": "^3.17.0",
+    "prettier-plugin-tailwindcss": "^0.6.1"
   },
   "peerDependencies": {
     "eslint": ">=8.0.0",
@@ -47,6 +48,5 @@
     "eslint-plugin-react": ">=7.31.11",
     "eslint-plugin-react-hooks": ">=4.6.0",
     "typescript": "^5.0.4"
-  },
-  "devDependencies": {}
+  }
 }

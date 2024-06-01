@@ -1,5 +1,17 @@
 # @takanome-dev/eslint-config-base
 
+## 1.0.6
+
+### Patch Changes
+
+- update package scopes
+
+## 1.0.5
+
+### Patch Changes
+
+- change package org name and publish back to npm
+
 ## 1.0.4
 
 ### Patch Changes
