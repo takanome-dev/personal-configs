@@ -11,7 +11,7 @@
     "changeset": "changeset",
     "changeset:version": "changeset version",
     "changeset:publish": "changeset publish",
-    "release": "yarn changeset:version && yarn changeset:publish"
+    "release": "pnpm changeset:version && pnpm changeset:publish"
   },
   "private": true,
   "packageManager": "pnpm@9.1.2",
