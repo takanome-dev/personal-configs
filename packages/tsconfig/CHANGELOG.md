@@ -1,4 +1,34 @@
-# @takanome/tsconfig-base
+# @takanome-dev/tsconfig-base
+
+## 1.0.5
+
+### Patch Changes
+
+- update package scopes
+
+## 1.0.4
+
+### Patch Changes
+
+- change package org name and publish back to npm
+
+## 1.0.3
+
+### Patch Changes
+
+- remove jsdoc plugin from eslint base configs
+
+## 1.0.2
+
+### Patch Changes
+
+- update packages namespace
+
+## 1.0.1
+
+### Patch Changes
+
+- Add airbnb and airbnb hooks configs in my eslint config
 
 ## 1.0.0
 

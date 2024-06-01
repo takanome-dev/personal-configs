@@ -1,4 +1,50 @@
-# @takanome/eslint-config
+# @takanome-dev/eslint-config
+
+## 1.0.6
+
+### Patch Changes
+
+- update package scopes
+- Updated dependencies
+  - @takanome/eslint-config-typescript@1.0.6
+
+## 1.0.5
+
+### Patch Changes
+
+- change package org name and publish back to npm
+- Updated dependencies
+  - @takanome/eslint-config-typescript@1.0.5
+
+## 1.0.4
+
+### Patch Changes
+
+- remove jsdoc plugin from eslint base configs
+- Updated dependencies
+  - @takanome-dev/eslint-config-typescript@1.0.4
+
+## 1.0.3
+
+### Patch Changes
+
+- update packages namespace
+- Updated dependencies
+  - @takanome-dev/eslint-config-typescript@1.0.3
+
+## 1.0.2
+
+### Patch Changes
+
+- Add airbnb and airbnb hooks configs in my eslint config
+- Updated dependencies
+  - @takanome/eslint-config-typescript@1.0.2
+
+## 1.0.1
+
+### Patch Changes
+
+- @takanome/eslint-config-typescript@1.0.1
 
 ## 1.0.0
 

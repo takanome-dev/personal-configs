@@ -1,6 +1,6 @@
 {
   "name": "@takanome/tsconfig",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -16,10 +16,7 @@
       "url": "https://twitter.com/takanome_dev"
     }
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/takanome-dev/personal-configs.git"
-  },
+  "repository": "https://github.com/takanome-dev/personal-configs.git",
   "keywords": [
     "tsconfig",
     "typescript",

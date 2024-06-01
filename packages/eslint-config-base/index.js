@@ -6,7 +6,6 @@ module.exports = {
   extends: [
     "airbnb",
     "eslint:recommended",
-    "plugin:jsdoc/recommended",
     "plugin:import/recommended",
     "plugin:prettier/recommended",
     "prettier",
@@ -18,7 +17,7 @@ module.exports = {
       presets: ["@babel/preset-react"],
     },
   },
-  plugins: ["jsdoc", "import", "html", "prettier"],
+  plugins: ["import", "html", "prettier"],
   rules: {
     "arrow-body-style": "error",
     "arrow-spacing": ["warn", { before: true, after: true }],
@@ -61,21 +60,6 @@ module.exports = {
     "import/prefer-default-export": "off",
     indent: "off",
     "init-declarations": ["error", "always"],
-    "jsdoc/require-description-complete-sentence": "warn",
-    "jsdoc/require-jsdoc": [
-      "warn",
-      {
-        require: {
-          ArrowFunctionExpression: true,
-          ClassDeclaration: true,
-          ClassExpression: true,
-          FunctionDeclaration: true,
-          FunctionExpression: true,
-          MethodDefinition: true,
-        },
-        publicOnly: true,
-      },
-    ],
     "keyword-spacing": "error",
     "linebreak-style": ["error", "unix"],
     "max-nested-callbacks": ["error", { max: 2 }],

@@ -12,7 +12,7 @@ These are TypeScript-specific configs that are not included in the base config.
 ## 💻 Usage
 
 First, install the package:
-  
+
 ```bash
 npm i -D @takanome/eslint-config-typescript
 ```
@@ -21,12 +21,12 @@ Then, create a `.eslintrc` file in the root of your project and extend the base 
 
 ```json
 {
-  "extends": "@takanome/eslint-config-typescript",
+  "extends": "@takanome/eslint-config-typescript"
   /// ...
 }
 ```
 
-If you found annoying eslint errors you want to turn off, you can override the rules in your `.eslintrc` file:
+If you find annoying eslint errors you want to turn off, you can override the rules in your `.eslintrc` file:
 
 ```json
 {

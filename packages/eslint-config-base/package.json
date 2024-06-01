@@ -1,10 +1,13 @@
 {
   "name": "@takanome/eslint-config-base",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "description": "ESLint config base used by takanome-dev",
   "main": "index.js",
   "author": "El Hadji Malick Seck (https://twitter.com/takanome_dev)",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "bugs": {
     "url": "https://github.com/takanome-dev/personal-configs/issues"
   },
@@ -15,10 +18,7 @@
       "url": "https://twitter.com/takanome_dev"
     }
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/takanome-dev/personal-configs.git"
-  },
+  "repository": "https://github.com/takanome-dev/personal-configs.git",
   "keywords": [
     "eslint",
     "eslintconfig",
@@ -26,16 +26,13 @@
     "eslint-config-base",
     "eslint-config-typescript"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
     "clean": "rm -rf .turbo node_modules"
   },
   "dependencies": {
     "@babel/core": "^7.20.7",
     "@babel/eslint-parser": "^7.19.1",
-    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prettier": "^5.0.0"
