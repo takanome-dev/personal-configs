@@ -1,5 +1,13 @@
 # @takanome-dev/eslint-config-typescript
 
+## 1.0.8
+
+### Patch Changes
+
+- 24db3c8: add tailwindcss eslint & prettier configs
+- Updated dependencies [24db3c8]
+  - @takanome/eslint-config-base@1.0.8
+
 ## 1.0.7
 
 ### Patch Changes
