@@ -4,7 +4,7 @@ module.exports = {
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
     "airbnb-typescript",
     "plugin:import/typescript",
-    "@takanome-dev/eslint-config-base",
+    "@takanome/eslint-config-base",
   ],
   parser: "@typescript-eslint/parser",
   plugins: ["@typescript-eslint"],

@@ -1,7 +1,10 @@
 {
-  "name": "@takanome-dev/tsconfig",
-  "version": "1.0.3",
+  "name": "@takanome/tsconfig",
+  "version": "1.0.5",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "El Hadji Malick Seck (https://twitter.com/takanome_dev)",
   "bugs": {
     "url": "https://github.com/takanome-dev/personal-configs/issues"
@@ -14,10 +17,6 @@
     }
   ],
   "repository": "https://github.com/takanome-dev/personal-configs.git",
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://npm.pkg.github.com"
-  },
   "keywords": [
     "tsconfig",
     "typescript",

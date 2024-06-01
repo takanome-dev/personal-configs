@@ -1,10 +1,13 @@
 {
-  "name": "@takanome-dev/eslint-config-base",
-  "version": "1.0.4",
+  "name": "@takanome/eslint-config-base",
+  "version": "1.0.6",
   "description": "ESLint config base used by takanome-dev",
   "main": "index.js",
   "author": "El Hadji Malick Seck (https://twitter.com/takanome_dev)",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "bugs": {
     "url": "https://github.com/takanome-dev/personal-configs/issues"
   },
@@ -16,10 +19,6 @@
     }
   ],
   "repository": "https://github.com/takanome-dev/personal-configs.git",
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://npm.pkg.github.com"
-  },
   "keywords": [
     "eslint",
     "eslintconfig",
