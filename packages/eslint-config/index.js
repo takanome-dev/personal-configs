@@ -9,7 +9,7 @@ module.exports = {
     "@takanome/eslint-config-typescript",
     "plugin:tailwindcss/recommended",
   ],
-  plugins: ["react-hooks", "prettier-plugin-tailwindcss"],
+  plugins: ["react-hooks"],
   rules: {
     "react/function-component-definition": "off",
     "react/prop-types": "off",

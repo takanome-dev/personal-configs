@@ -1,5 +1,11 @@
 # @takanome-dev/eslint-config
 
+## 1.1.1
+
+### Patch Changes
+
+- fix: remove prettier config for tailwind in eslint configs
+
 ## 1.1.0
 
 ### Minor Changes
